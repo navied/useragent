@@ -16,7 +16,7 @@ class UserAgent
           'Android'
         elsif platform == 'webOS' || platform == 'BlackBerry'  || platform == 'Symbian'
           platform
-        elsif detect_product('FBIOS')
+        elsif detect_product('FBCR')
           'Facebook'
         else
           'Safari'
