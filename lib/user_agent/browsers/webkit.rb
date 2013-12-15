@@ -18,6 +18,8 @@ class UserAgent
           platform
         elsif detect_product('FBCR')
           'Facebook'
+        elsif detect_product('Twitter')
+          'Twitter'
         else
           'Safari'
         end
